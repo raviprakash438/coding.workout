@@ -1,9 +1,9 @@
 package com.example.coding.workout.InstrumentShop.product;
 
-import com.example.rest.InstrumentShop.InstrumentSpec;
-import com.example.rest.InstrumentShop.enums.Builder;
-import com.example.rest.InstrumentShop.enums.Type;
-import com.example.rest.InstrumentShop.enums.Wood;
+import com.example.coding.workout.InstrumentShop.InstrumentSpec;
+import com.example.coding.workout.InstrumentShop.enums.Builder;
+import com.example.coding.workout.InstrumentShop.enums.Type;
+import com.example.coding.workout.InstrumentShop.enums.Wood;
 
 public class GuitarSpec extends InstrumentSpec {
     public int numStrings;

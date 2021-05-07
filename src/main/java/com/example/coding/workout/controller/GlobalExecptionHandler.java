@@ -1,7 +1,8 @@
 package com.example.coding.workout.controller;
 
-import com.example.rest.entity.StudentErrorResponse;
-import com.example.rest.error.StudentNotFoundException;
+
+import com.example.coding.workout.entity.StudentErrorResponse;
+import com.example.coding.workout.error.StudentNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

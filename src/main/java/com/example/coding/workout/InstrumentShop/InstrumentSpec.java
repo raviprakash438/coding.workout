@@ -1,8 +1,9 @@
 package com.example.coding.workout.InstrumentShop;
 
-import com.example.rest.InstrumentShop.enums.Builder;
-import com.example.rest.InstrumentShop.enums.Type;
-import com.example.rest.InstrumentShop.enums.Wood;
+
+import com.example.coding.workout.InstrumentShop.enums.Builder;
+import com.example.coding.workout.InstrumentShop.enums.Type;
+import com.example.coding.workout.InstrumentShop.enums.Wood;
 
 public class InstrumentSpec {
 

@@ -1,6 +1,6 @@
 package com.example.coding.workout.Multithreading;
 
-import com.example.rest.Models.Emp;
+import com.example.coding.workout.Models.Emp;
 
 import java.text.SimpleDateFormat;
 

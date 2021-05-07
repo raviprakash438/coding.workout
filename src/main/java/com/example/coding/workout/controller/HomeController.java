@@ -1,9 +1,9 @@
 package com.example.coding.workout.controller;
 
-import com.example.rest.Services.AuthorService;
-import com.example.rest.Services.StudentService;
-import com.example.rest.entity.Student;
-import com.example.rest.error.StudentNotFoundException;
+import com.example.coding.workout.Services.AuthorService;
+import com.example.coding.workout.Services.StudentService;
+import com.example.coding.workout.entity.Student;
+import com.example.coding.workout.error.StudentNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

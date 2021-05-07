@@ -1,6 +1,7 @@
 package com.example.coding.workout.Models;
 
-import com.example.rest.Interface.Employee;
+
+import com.example.coding.workout.Interface.Employee;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;

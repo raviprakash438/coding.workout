@@ -1,7 +1,8 @@
 package com.example.coding.workout.Services;
 
-import com.example.rest.entity.Author;
-import com.example.rest.entity.ResponseDetail;
+
+import com.example.coding.workout.entity.Author;
+import com.example.coding.workout.entity.ResponseDetail;
 import com.google.gson.Gson;
 import org.springframework.stereotype.Service;
 

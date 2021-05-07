@@ -1,6 +1,6 @@
 package com.example.coding.workout.Services;
 
-import com.example.rest.Multithreading.ThreadSafeFormatter;
+import com.example.coding.workout.Multithreading.ThreadSafeFormatter;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,10 +1,10 @@
 package com.example.coding.workout.InstrumentShop;
 
-import com.example.rest.InstrumentShop.enums.Builder;
-import com.example.rest.InstrumentShop.enums.Type;
-import com.example.rest.InstrumentShop.enums.Wood;
-import com.example.rest.InstrumentShop.product.Guitar;
-import com.example.rest.InstrumentShop.product.GuitarSpec;
+import com.example.coding.workout.InstrumentShop.enums.Builder;
+import com.example.coding.workout.InstrumentShop.enums.Type;
+import com.example.coding.workout.InstrumentShop.enums.Wood;
+import com.example.coding.workout.InstrumentShop.product.Guitar;
+import com.example.coding.workout.InstrumentShop.product.GuitarSpec;
 
 public class Start {
 

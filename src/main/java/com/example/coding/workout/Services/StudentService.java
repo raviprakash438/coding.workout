@@ -1,6 +1,7 @@
 package com.example.coding.workout.Services;
 
-import com.example.rest.entity.Student;
+
+import com.example.coding.workout.entity.Student;
 
 import java.util.ArrayList;
 import java.util.List;
