@@ -1,6 +1,7 @@
 package com.example.coding.workout.Multithreading;
 
 import java.util.concurrent.Callable;
+import java.util.concurrent.Future;
 
 public class SimpleTaskCallable implements Callable {
     private int i;
@@ -19,5 +20,17 @@ public class SimpleTaskCallable implements Callable {
         }
         Thread.sleep(3000);
         return fact;
+    }
+
+    public static void main(String[] args) {
+        SimpleTaskCallable simpleTaskCallable = new SimpleTaskCallable(1);
+        Thread t1= new Thread(() -> {
+            try {
+                simpleTaskCallable.call();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+        t1.start();
     }
 }
