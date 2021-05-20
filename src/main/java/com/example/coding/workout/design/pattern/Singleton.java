@@ -1,7 +1,5 @@
 package com.example.coding.workout.design.pattern;
 
-import com.example.coding.workout.Models.counter;
-
 import java.io.Serializable;
 
 public class Singleton implements Serializable {

@@ -5,14 +5,14 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Qualifier("Emp1")
-public class Emp1 extends AbstractEmployee {
+public class Emp1 {
     Emp1(){
         System.out.println("Emp1 class constructor is called.");
     }
     //@Value("${emp.type}")
     String empType;
 
-    @Override
+
     public void EmployeeDetails() {
         System.out.println("Employee Details");
     }

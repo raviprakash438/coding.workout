@@ -4,6 +4,7 @@ public class WebPageProxy implements WebPage {
     private WebPage webpage;
 
     public WebPageProxy(){
+
         webpage= new WebPageImpl();
     }
     @Override

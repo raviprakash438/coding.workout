@@ -8,7 +8,7 @@ public  final class ImmutableClass extends Emp1
     private final Date CurrentData;
 
     public ImmutableClass(String name, Date currentData) {
-        Name = name;
+        this.Name = name;
         CurrentData = currentData;
     }
 
@@ -20,11 +20,5 @@ public  final class ImmutableClass extends Emp1
         return CurrentData;
     }
 
-    @Override
-    public String toString() {
-        return "ImmutableClass{" +
-                "Name='" + Name + '\'' +
-                ", CurrentData=" + CurrentData +
-                '}';
-    }
+
 }
