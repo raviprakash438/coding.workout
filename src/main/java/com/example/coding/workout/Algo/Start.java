@@ -9,9 +9,13 @@ import java.util.stream.Stream;
 public class Start<T> {
     public  void add(T t){
 
+
     }
     public static void main(String[] args) {
-        Stream.of(1,2,3,4,5,6,7).skip(5).forEach(num-> System.out.println(num+ " "));
+       // Stream.of(1,2,3,4,5,6,7).skip(5).forEach(num-> System.out.println(num+ " "));
+        String line="5";
+        int num= Integer.parseInt(line) /3;
+        Integer integer=Integer.valueOf(line);
 
 //        Start<Number> s= new Start<>();
 //        s.add(new Integer(5));

@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ReverseTheVowels {
 
-    static String str = "search";
+    static String str = "umbrella";
 
     public static void main(String[] args) {
         System.out.println("input: " + str);
@@ -16,13 +16,13 @@ public class ReverseTheVowels {
     public static String reverse(String str) {
 
         char[] chararr = str.toCharArray();
-        for (int i = 0, j = chararr.length - 1; i < chararr.length; i++) {
+        for (int i = 0, j = chararr.length - 1; i < j; i++) {
             if (isVowel(chararr[i])) {
 
                 while (j > i && !isVowel(chararr[j])) {
                     j--;
                 }
-                if (j > i && isVowel(chararr[j])) {
+                if (isVowel(chararr[j])) {
                     char temp = chararr[i];
                     chararr[i] = chararr[j];
                     chararr[j] = temp;

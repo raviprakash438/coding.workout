@@ -10,7 +10,7 @@ public class StringToInt {
         int num = 0;
         for (char c : str) {
             //System.out.println("c: " + (int) c);
-            int ascci = (int) c;
+            int ascci = c;
             //48 is the ascci value of 0;
             num = num * 10 + (ascci - 48);
 
