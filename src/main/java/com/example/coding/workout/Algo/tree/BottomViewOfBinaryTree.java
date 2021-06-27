@@ -1,6 +1,5 @@
-package com.example.coding.workout.Algo;
+package com.example.coding.workout.Algo.tree;
 
-import javax.persistence.criteria.CriteriaBuilder;
 import java.util.*;
 
 public class BottomViewOfBinaryTree {
@@ -58,11 +57,3 @@ public class BottomViewOfBinaryTree {
 
 }
 
-class Btree {
-    int data;
-    Btree left, right;
-
-    public Btree(int num) {
-        data = num;
-    }
-}

@@ -29,6 +29,20 @@ public class ServingCake {
         System.out.println(Arrays.toString(radiusArr));
         System.out.println(Arrays.toString(areaList.toArray()));
 
+//        for(int i=0;i<areaList.size();i++){
+//            int numberOfpie=0;
+//            double piesize= areaList.get(i);
+//            for (Double aDouble : areaList) {
+//                numberOfpie += (int) (aDouble / piesize);
+//
+//            }
+//            if(numberOfpie==noOfGuest){
+//                DecimalFormat df = new DecimalFormat("###.####");
+//                System.out.println("The max Pie size: " + df.format(piesize));
+//                break;
+//            }
+//        }
+
         for (int i = noOfGuest; i > 0; i--) {
             int counter = i;
             double piesize = areaList.get(areaList.size() - 1) / i;
